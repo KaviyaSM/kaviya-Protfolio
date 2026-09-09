@@ -1,0 +1,48 @@
+.timeline {
+  position: relative;
+  padding-left: 34px;
+  border-left: 2px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -42px;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--gradient-accent);
+  box-shadow: 0 0 0 4px var(--bg), 0 0 0 5px var(--border);
+}
+
+.timeline-card {
+  padding: 24px 26px;
+}
+
+.timeline-period {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.timeline-degree {
+  font-size: 1.15rem;
+  margin-bottom: 6px;
+}
+
+.timeline-field {
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.timeline-detail {
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  color: var(--accent-electric);
+}
