@@ -182,7 +182,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.55, duration: 0.7 }}
         >
-          <a href="public/kaviya_resume_atsfriendly.pdf" download="kaviya_resume.pdf" className="btn btn-primary">
+          <a href="/kaviya_resume_atsfriendly.pdf" download="kaviya_resume.pdf" className="btn btn-primary">
             <FiDownload /> Download Resume
           </a>
           <a href="#projects" className="btn btn-ghost">
